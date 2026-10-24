@@ -1,9 +1,15 @@
 # Week 4 — Machine learning development and evaluation
 
-**Status: task supplied; implementation not started.**
+Completed using the supplied Week 4 task.
 
-Required work: preprocess the data, select and train a simple machine learning model, assess it with appropriate metrics, and critically discuss errors, overfitting or underfitting and improvements. Include code and at least two evaluation visualisations, such as a confusion matrix and ROC curve, in a Word report. Assigned workload: 30–35 hours.
+- Report: [Week4_Machine_Learning_Development_Evaluation.docx](Week4_Machine_Learning_Development_Evaluation.docx)
+- Run: `python weeks/week04/analysis.py` from the repository root.
+- Outputs: four figures, CV/test metrics, predictions, subgroup errors and split manifest.
+- Selected model: logistic regression by development CV ROC AUC.
+- Internal test: 179 records, accuracy 82.1%, ROC AUC 0.845.
 
-Continue with the Titanic dataset. Start from raw data and prevent target leakage. Split before fitting imputers or encoders. Week 3's inferential logistic models are not a completed Week 4 predictive evaluation.
-
-When implemented, add `analysis.py`, an `outputs` folder and the Word report here. Update the root README and execution workflow only after validation.
+All preprocessing is fitted within training folds. A fixed threshold of 0.50 is used.
+Earlier weeks explored the full dataset, and family identifiers are unavailable;
+these limitations prevent treating this as independent external validation.
+The report documents uneven subgroup errors and a proposed 32-hour workload, not
+an actual time log. The complete script is executable without API keys.

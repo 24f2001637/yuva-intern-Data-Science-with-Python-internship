@@ -1,0 +1,6 @@
+action,proposed_owner,success_measure,timing
+Preserve raw data and split manifests,Analyst,Every rerun passes snapshot and split checks,Immediate
+Audit subgroup errors before model use,Model reviewer,Report recall and false positives with denominators,Immediate
+Validate on newly acquired independent records,Research lead,Independent performance and uncertainty reported,Before any external use
+Collect family IDs and operational variables,Data steward,Coverage and linkage quality measured,Next data collection
+Evaluate any operational intervention separately,Domain specialist,Predefined outcome and comparison design,Future research

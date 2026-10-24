@@ -1,0 +1,84 @@
+{
+  "dataset_rows": 891,
+  "survivors": 342,
+  "dataset_sha256": "81787d320d7f7b03df935e91de8bd19e11d45c5bbcab86ef4d4a76dc91b7d4f2",
+  "statistical_results": [
+    {
+      "test": "Sex",
+      "n": 891,
+      "statistic": 263.05057407065567,
+      "df": 1,
+      "p": 3.711747770113424e-59,
+      "effect": 0.5433513806577551,
+      "min_expected": 120.52525252525253,
+      "p_holm": 1.855873885056712e-58
+    },
+    {
+      "test": "Class",
+      "n": 891,
+      "statistic": 102.88898875696056,
+      "df": 2,
+      "p": 4.549251711298793e-23,
+      "effect": 0.33981738800531175,
+      "min_expected": 70.62626262626263,
+      "p_holm": 1.819700684519517e-22
+    },
+    {
+      "test": "Mean age",
+      "n": 714,
+      "statistic": -2.0460301043939704,
+      "df": 598.841215388818,
+      "p": 0.04118965162586641,
+      "effect": -0.15732002252278615,
+      "min_expected": null,
+      "p_holm": 0.04118965162586641
+    },
+    {
+      "test": "Child group",
+      "n": 714,
+      "statistic": 9.538010174377485,
+      "df": 1,
+      "p": 0.002012598178889246,
+      "effect": 0.11557922679787816,
+      "min_expected": 28.025210084033613,
+      "p_holm": 0.004025196357778492
+    },
+    {
+      "test": "Family group",
+      "n": 891,
+      "statistic": 74.5372490469824,
+      "df": 2,
+      "p": 6.522919536640473e-17,
+      "effect": 0.28923299057355023,
+      "min_expected": 23.7979797979798,
+      "p_holm": 1.956875860992142e-16
+    }
+  ],
+  "selected_model": "Logistic regression",
+  "test_metrics": {
+    "model": "Logistic regression",
+    "cv_auc_mean": 0.8656372634389877,
+    "cv_auc_sd": 0.020569411190988086,
+    "cv_train_auc": 0.872863093640724,
+    "accuracy": 0.8212290502793296,
+    "balanced_accuracy": 0.7978260869565217,
+    "precision": 0.8135593220338984,
+    "recall": 0.6956521739130435,
+    "f1": 0.75,
+    "roc_auc": 0.8451910408432148,
+    "average_precision": 0.7947150937598598,
+    "brier": 0.14149475506513595
+  },
+  "test_n": 179,
+  "confusion_matrix": [
+    [
+      99,
+      11
+    ],
+    [
+      21,
+      48
+    ]
+  ],
+  "scope": "Historical educational analysis; no causal effect or deployment impact estimated."
+}
