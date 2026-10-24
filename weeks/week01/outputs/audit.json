@@ -1,0 +1,10 @@
+{
+  "raw_rows": 891,
+  "retained_rows": 891,
+  "raw_duplicate_profiles": 107,
+  "rows_removed": 0,
+  "missing_ages": 177,
+  "survivors": 342,
+  "survival_rate": 0.3838383838383838,
+  "policy": "Identical profiles are not verified duplicate passengers."
+}
